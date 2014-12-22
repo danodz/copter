@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.MovieClip;	import flash.events.Event;		public class Piece extends MovieClip 	{				public function Piece(y) 		{			this.y = y;			x = 550;		}				public function update()		{			x -= 10;		}	}	}

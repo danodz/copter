@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;	import flash.events.Event;	import flash.display.Sprite;		public class PieceMenu extends MovieClip 	{		public function PieceMenu() 		{			addEventListener(Event.ENTER_FRAME, update);		}				public function update(e : Event)		{			if(hitTestObject(parent.getChildAt(2)) && currentFrame == 1)				gotoAndStop(2);		}	}	}
